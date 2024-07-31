@@ -1,8 +1,6 @@
-[PYTHON__BADGE]: https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg
+<a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" width="36" height="36" alt="Python" /></a>
 
 <h1 align="center" style="font-weight: bold;">Système Dowload Videos</h1>
-
-![python][PYTHON__BADGE]
 
 <h2 id="started">📌 About</h2>
 
