@@ -1,3 +1,5 @@
+from pytubefix import YouTube
+from pytubefix.cli import on_progress
 import tkinter
 from tkinter import *
 from tkinter import ttk
@@ -12,8 +14,7 @@ from PIL import ImageTk, Image,ImageOps , ImageDraw
 
 import requests
 
-from pytubefix import YouTube
-from pytubefix.cli import on_progress
+
 from tkinter.ttk import Progressbar
 
 ################# cores ###############
@@ -110,7 +111,7 @@ def on_progress(stream, chunk, bytes_remaining):
 
 def download():
 	url=e_url.get()
-	yt = YouTube(url)
+	yt = YouTube(url, client="WEB_MUSIC")
 	
 	yt.on_progress_callback = on_progress
 	ys = yt.streams.get_highest_resolution()

@@ -1,0 +1,2 @@
+- COMANDO PARA GERAR INSTALADOR 
+pyinstaller --noconsole main.py 
